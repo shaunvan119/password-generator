@@ -36,6 +36,32 @@ button {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+    border: none;
+}
+
+h2 {
+    
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 5px;
+    top: 208px;
+
+    /* text-xl/leading-7/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: #D5D4D8;
+    display: inline-block;
+   
 }
 
 img {
@@ -43,3 +69,75 @@ img {
     padding-right: 10px;
     padding-left: 10px;
 }
+
+#line-image {
+    padding-top: 490px;
+    padding-left: 42px;
+    
+}
+
+#rectangle1 {
+    
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 399px;
+
+    background: #273549;
+    border-radius: 6px;
+    
+
+}
+
+#rectangle2 {
+    
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 399px;
+
+    background: #273549;
+    border-radius: 6px;
+}
+
+#rectangle3 {
+    
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 399px;
+
+    background: #273549;
+    border-radius: 6px;
+}
+
+#rectangle4 {
+    
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 399px;
+    background: #273549;
+    border-radius: 6px;
+}
+
+.passwords {
+    display: grid;
+    font: inter;
+    grid-template-columns: 240px auto;
+    padding-left: 44px;
+    padding-top: 30px;
+    color: rgba(85, 249, 145, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+
+}
+
+
