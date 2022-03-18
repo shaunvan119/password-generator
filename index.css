@@ -10,9 +10,36 @@ body {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 40px;
     letter-spacing: -0.025em;
     text-align: left;
+    position: absolute;
+    width: 700px;
+    height: 80px;
+    left: 52px;
+    top: 118px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
 
-    
+button {
+    height: 42px;
+    width: 223px;
+    left: 52px;
+    top: 287px;
+    border-radius: 6px;
+    background: rgba(16, 185, 129, 1);
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+img {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
 }
