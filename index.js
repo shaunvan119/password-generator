@@ -9,13 +9,6 @@ let passwords3 = document.getElementById("rectangle3")
 let codeFour = []
 let passwords4 = document.getElementById("rectangle4")
 
-// 3. Grab ahold of the player-el paragraph and store it in a variable called playerEl
-
-// 4. Render the player's name and chips in playerEl
-
-//let alphabetTwo = "abcdefghijklmnopqrstuvwxyz"
-    //let randomCharacterTwo = alphabetTwo[Math.floor(Math.random() * alphabetTwo.length)]
-
 // first password function
 function getRandomPassword() {
     let randomPassword = Math.floor( Math.random()*100000 ) + 1
